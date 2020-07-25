@@ -1,0 +1,37 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	     for (int i = 1; i<=450; i++){
+             System.out.println("case " + "\"" + i + "\"" + ": ");
+             System.out.println("echo(\"bbsize: \" . $bbsize . \", \" . \"bbchips\" . \", \" . $bbchips);");
+             System.out.println("?>");
+             System.out.println("<a href=\"http://localhost:63342/1907/index.php?bbsize=150&bbchips=" + i + "&send=Sending\">");
+             System.out.println("<p>Пуш когда герой на сб и у бб <?php echo(\"$bbchips\") ?>");
+             System.out.println("                            фишек                                                                      Колл пуша когда");
+             System.out.println("герой на бб и у бб <?php echo(\"$bbchips\") ?> фишек</p>");
+             System.out.println("<img src=\"150sbi/150sb" +i+ ".png\" alt=\"\"/>");
+             //System.out.println("<p>Колл пуша когда герой на бб и у бб <?php echo(\"$bbchips\") ?> фишек</p>");
+             System.out.println("<img src=\"150sbi/150bb" +i+ ".png\" alt=\"\"/></a>");
+             System.out.println("<?php");
+             System.out.println("break;");
+             System.out.println(" ");
+             /*
+             case "100":
+                    echo("bbsize: " . $bbsize . ", " . "bbchips" . ", " . $bbchips);
+                    ?>
+                    <a href="http://localhost:63342/1907/index.php?bbsize=30&bbchips=100&send=Sending">
+                        <p>Пуш когда герой на сб и у бб <?php echo("$bbchips") ?> фишек</p>
+                        <img src="30sbi/30sb100.png" alt=""/>
+                        <p>Колл пуша когда герой на бб и у бб <?php echo("$bbchips") ?> фишек</p>
+                        <img src="30sbi/30bb100.png" alt=""/></a><!--что такое альт,  -->
+                    <?php
+                    break;
+              */
+             //img src = " "
+             //20sbi
+
+         }
+    }
+}
